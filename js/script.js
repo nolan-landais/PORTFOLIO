@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.querySelector(".typewriter");
     if (textElement) {
-        const text = "Bienvenue sur mon portfolio";
+        const text = "Nolan Landais";
         let index = 0;
 
         function typeWriter() {
