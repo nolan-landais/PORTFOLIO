@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le portfolio de Nolan Landais, étudiant en BUT MMI, mettant en avant ses compétences en création numérique et développement web.">
+    <meta name="keywords" content="Portfolio, Nolan Landais, BUT MMI, Développement Web, Création Numérique">
+    <meta name="author" content="Nolan Landais">
+    <title>Portfolio - Accueil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li class="dropdown">
+                <a href="#">Mes projets</a>
+                <ul class="dropdown-content">
+                    <li><a href="creation-numerique.html">Création numérique</a></li>
+                    <li><a href="projets-web.html">Développement Web</a></li>
+                    <li><a href="projets-personnels.html">Projets personnels</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">☀️</button>
+</header>
+
+<section class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+        <h1 class="typewriter"></h1>
+        <p>Je suis Nolan Landais, étudiant en BUT MMI. Découvrez mes projets en développement web et création numérique.</p>
+        <a href="a-propos.html" class="btn">En savoir plus</a>
+    </div>
+</section>
+
+<main>
+    <section class="introduction">
+    <h2>Présentation</h2>
+    <div class="intro-container">
+        <img src="img/photo-nolan.jpg" alt="Photo de Nolan Landais" class="intro-photo">
+        <div class="intro-text">
+            <p>Passionné par le développement web et la création numérique, je mets mes compétences au service de projets innovants et créatifs. Mon portfolio reflète mon engagement à apprendre et à exceller dans mon domaine.</p>
+            <div class="cv-download">
+                <a href="assets/cv.pdf" download class="btn">📄 Télécharger mon CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="skills">
+        <h2>Mes compétences</h2>
+        <div class="skills-container">
+            <div class="skill">HTML / CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Suite Adobe</div>
+            <div class="skill">Gestion de projets</div>
+        </div>
+    </section>
+
+    <section class="projects-gallery">
+        <h2>Mes projets</h2>
+        <div class="project-card">
+            <img src="img/jolagreen23-1.jpeg" alt="Projet 1">
+            <p>Projet 1 : Description du projet</p>
+        </div>
+        <div class="project-card">
+            <img src="img/project2.jpeg" alt="Projet 2">
+            <p>Projet 2 : Description du projet</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Nolan Landais. Tous droits réservés. | <a href="#">Mentions légales</a> | <a href="contact.html">Contactez-moi</a></p>
+</footer>
+
+<!-- Chargement des scripts optimisés -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": { "value": 40 },
+            "size": { "value": 2 },
+            "opacity": { "value": 0.6 },
+            "move": { "speed": 1, "direction": "none" },
+            "line_linked": { "enable": false },
+            "color": { "value": ["#ffcc00", "#9683EC", "#00d4ff"] },
+            "opacity": {
+                "value": 0.6,
+                "anim": {
+                    "enable": true,
+                    "speed": 1,
+                    "opacity_min": 0.3,
+                    "sync": false
+                }
+            }
+        }
+    });
+</script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

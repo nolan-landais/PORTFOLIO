@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photographies et retouches réalisées par Nolan Landais lors du concert de Jolagreen23 à l'Olympia.">
+    <meta name="keywords" content="Photographie, Jolagreen23, Retouches, Lightroom, Photoshop, Concert, Portfolio">
+    <meta name="author" content="Nolan Landais">
+    <title>Jolagreen23 à l'Olympia - Projet Photo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li class="dropdown">
+                <a href="#">Mes projets</a>
+                <ul class="dropdown-content">
+                    <li><a href="creation-numerique.html">Création numérique</a></li>
+                    <li><a href="projets-web.html">Développement Web</a></li>
+                    <li><a href="projets-personnels.html" class="active">Projets personnels</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">☀️</button>
+</header>
+
+<main>
+    <section class="project-detail">
+        <h1>Jolagreen23 à l'Olympia</h1>
+        <p class="subtitle">Photographies & Retouches réalisées lors du concert</p>
+
+        <!-- Galerie d'images -->
+        <div class="gallery">
+            <img src="img/jolagreen23-1.jpeg" alt="Photo 1 du concert">
+            <img src="img/jolagreen23-2.jpeg" alt="Photo 2 du concert">
+            <img src="img/jolagreen23-3.jpeg" alt="Photo 3 du concert">
+            <img src="img/jolagreen23-4.jpeg" alt="Photo 4 du concert">
+        </div>
+
+        <!-- Vidéo du concert -->
+        <div class="video-container">
+            <h2>Vidéo exclusive du concert</h2>
+            <video controls>
+                <source src="videos/jolagreen23.mov" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+        </div>
+
+        <!-- Description du projet -->
+        <div class="description">
+            <h2>À propos du projet</h2>
+            <p>Lors du concert de Jolagreen23 à l'Olympia, j’ai capturé des moments clés à travers <strong>4 clichés</strong> et une <strong>vidéo immersive</strong>. 
+            Chaque image a été soigneusement <strong>retouchée</strong> avec Adobe Lightroom et Photoshop pour mettre en avant l’ambiance unique du concert.</p>
+
+            <h3>Techniques utilisées :</h3>
+            <ul>
+                <li>Photographie en conditions de basse lumière</li>
+                <li>Retouche couleur et contraste avec Lightroom</li>
+                <li>Correction des défauts et amélioration du piqué</li>
+                <li>Montage et étalonnage de la vidéo</li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Nolan Landais. Tous droits réservés. | <a href="contact.html">Contactez-moi</a></p>
+</footer>
+
+<!-- Lightbox pour agrandir les images -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<!-- Chargement des scripts optimisés -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
