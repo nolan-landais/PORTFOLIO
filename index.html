@@ -8,11 +8,16 @@
     <meta name="author" content="Nolan Landais">
     <title>Portfolio - Accueil</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 <header>
+    <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Logo Nolan Landais">
+    </a>
     <nav>
         <ul class="navbar">
             <li><a href="index.html" class="active">Accueil</a></li>
@@ -35,7 +40,7 @@
     <div id="particles-js"></div>
     <div class="hero-content">
         <h1 class="typewriter"></h1>
-        <p>Je suis Nolan Landais, étudiant en BUT MMI. Découvrez mes projets en développement web et création numérique.</p>
+        <p>Etudiant en deuxième année de BUT Métiers du Multimédia et de l'Internet, <br> je suis actuellement à la recherche d'un stage dans le domaine de la création numérique.</p>
         <a href="a-propos.html" class="btn">En savoir plus</a>
     </div>
 </section>
@@ -46,23 +51,56 @@
     <div class="intro-container">
         <img src="img/photo-nolan.jpg" alt="Photo de Nolan Landais" class="intro-photo">
         <div class="intro-text">
-            <p>Passionné par le développement web et la création numérique, je mets mes compétences au service de projets innovants et créatifs. Mon portfolio reflète mon engagement à apprendre et à exceller dans mon domaine.</p>
-            <div class="cv-download">
-                <a href="assets/cv.pdf" download class="btn">📄 Télécharger mon CV</a>
-            </div>
+            <p>Étudiant en deuxième année de BUT MMI, je suis passionné par l’<strong>image</strong> sous toutes ses formes : <strong>photographie, vidéo, graphisme</strong>… La <strong>musique</strong> occupe une place essentielle dans ma vie, et j’aspire à combiner ces univers en travaillant aux côtés d’artistes, que ce soit en tant que <strong>photographe de scène</strong> ou <strong>graphiste</strong> dans l’industrie musicale. <strong>Créatif, curieux et déterminé</strong>, je suis à la recherche d’un <strong>stage</strong> pour affiner mon savoir-faire, ainsi qu’une <strong>alternance</strong> l’an prochain afin de concrétiser mon ambition. <strong>Découvrez mon univers et contactez-moi pour en savoir plus !</strong></p>
+            <div class="btn-container">
+    <a href="assets/cv.pdf" target="_blank" download class="btn">📄 Télécharger mon CV</a>
+    <a href="https://www.linkedin.com/in/nolan-landais-365330304/" target="_blank" class="btn linkedin-btn">
+        🔗 Voir mon LinkedIn
+    </a>
+</div>
+
         </div>
     </div>
 </section>
 
     <section class="skills">
-        <h2>Mes compétences</h2>
-        <div class="skills-container">
-            <div class="skill">HTML / CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Suite Adobe</div>
-            <div class="skill">Gestion de projets</div>
-        </div>
-    </section>
+    <h2>Mes compétences</h2>
+    
+    <!-- 🖌️ Création Numérique -->
+    <h3>🖌️ Création Numérique</h3>
+    <div class="skills-container">
+        <div class="skill"><i class="fab fa-adobe" style="color: #FF0000;"></i> Photoshop</div>
+        <div class="skill"><i class="fab fa-adobe" style="color: #FF9A00;"></i> Illustrator</div>
+        <div class="skill"><i class="fab fa-adobe" style="color: #FF3366;"></i> InDesign</div>
+        <div class="skill"><i class="fab fa-adobe" style="color: #2D2DFF;"></i> Premiere Pro</div>
+        <div class="skill"><i class="fas fa-camera" style="color: #ffffff;"></i> Photographie</div>
+        <div class="skill"><i class="fas fa-video" style="color: #ffffff;"></i> Vidéo / Montage</div>
+        <div class="skill"><i class="fas fa-paint-brush" style="color: #ffffff;"></i> Motion Design</div>
+        <div class="skill"><i class="fab fa-figma" style="color: #F24E1E;"></i> Figma</div>
+    </div>
+
+    <!-- 💬 Communication -->
+    <h3>💬 Communication</h3>
+    <div class="skills-container">
+        <div class="skill"><i class="fas fa-comments" style="color: #ffffff;"></i> Rédaction</div>
+        <div class="skill"><i class="fas fa-users" style="color: #ffffff;"></i> Gestion de projet</div>
+        <div class="skill"><i class="fas fa-bullhorn" style="color: #ffffff;"></i> Stratégie Digitale</div>
+    </div>
+
+    <!-- 💻 Développement Web -->
+    <h3>💻 Développement Web</h3>
+    <div class="skills-container">
+        <div class="skill"><i class="fab fa-html5" style="color: #E34F26;"></i> HTML</div>
+        <div class="skill"><i class="fab fa-css3-alt" style="color: #1572B6;"></i> CSS</div>
+        <div class="skill"><i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-php" style="color: #777BB4;"></i> PHP</div>
+        <div class="skill"><i class="fab fa-wordpress" style="color: #21759B;"></i> WordPress</div>
+        <div class="skill"><i class="fab fa-git-alt" style="color: #F05032;"></i> Git</div>
+        <div class="skill"><i class="fab fa-github" style="color: white;"></i> GitHub</div>
+    </div>
+</section>
+
+
 
     <section class="projects-gallery">
         <h2>Mes projets</h2>
